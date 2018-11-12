@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:paddingBottom="8dp">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/pvImagePost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside" />
+
+    <ImageView
+        android:id="@+id/imvBack"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:transitionName="imagePost"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/left_arrow" />
+
+    <TextView
+        android:id="@+id/tvNameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/imvBack"
+        android:text="Test"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTimeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNameUser"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/imvBack"
+        android:text="test"
+
+        android:textColor="#BBBBBB"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/vertical_3_dots"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layoutReact"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Testtat"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvTitle"
+        android:background="#3e3d3e" />
+
+    <LinearLayout
+        android:id="@+id/layoutReact"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imvLoveW"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/love_white" />
+
+        <TextView
+            android:id="@+id/tvNumberLove"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imvCmt"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/comment_white" />
+
+        <TextView
+            android:id="@+id/tvNumberCmt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

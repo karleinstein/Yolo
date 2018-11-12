@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnHome"
+        android:icon="@drawable/ic_home_black_32dp"
+        android:title="@null">
+
+    </item>
+    <item
+        android:id="@+id/btnSearch"
+        android:icon="@drawable/ic_search_black_32dp"
+        android:title="@null">
+
+    </item>
+    <item
+        android:id="@+id/btnNewPost"
+        
+        android:icon="@drawable/ic_create_black_32dp"
+        android:title="@null">
+
+    </item>
+    <item
+        android:id="@+id/btnFriends"
+        android:icon="@drawable/ic_people_black_32dp"
+        android:title="@null">
+
+    </item>
+    <item
+        android:id="@+id/btnWall"
+        android:icon="@drawable/ic_person_black_32dp"
+        android:title="@null">
+
+    </item>
+
+</menu>

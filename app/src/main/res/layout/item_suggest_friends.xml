@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingEnd="8dp"
+    tools:ignore="RtlSymmetry">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imvAvtFrdSuggest"
+        android:layout_width="98dp"
+        android:layout_height="98dp" />
+
+    <TextView
+        android:id="@+id/tvNameFrdSuggest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/imvAvtFrdSuggest"
+        android:text="fdsafds"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnAddFriends"
+        android:layout_width="128dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/tvNameFrdSuggest"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/imvAvtFrdSuggest"
+        android:background="@drawable/btn_background_clicked"
+        android:text="follow"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnRemoveSuggest"
+        android:layout_width="128dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/tvNameFrdSuggest"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toEndOf="@+id/btnAddFriends"
+        android:background="@drawable/background_dialog_btncancel"
+        android:text="remove"
+        android:textColor="#88888c"
+        tools:ignore="RtlHardcoded" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/btnRemoveSuggest"
+        android:layout_marginTop="16dp"
+        android:background="#edeeef" />
+
+</RelativeLayout>

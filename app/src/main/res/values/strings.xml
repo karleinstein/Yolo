@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Yolo</string>
+    <string name="hint_title"><b>An interesting title</b></string>
+    <string name="vertical_3_dots">&#8942;</string>
+    <string name="dialog_forgot_pwd">Enter your username and email and we\'ll \nemail you a password reset link</string>
+    <string name="nameBottom" />
+</resources>
